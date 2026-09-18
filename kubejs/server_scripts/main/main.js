@@ -117,9 +117,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: `forestry:fertilizer_apatite` });
     event.remove({ id: `forestry:fertilizer_ash` });
 
-    event.remove({ id: `jetboots:jetboots` });
-    event.remove({ id: `jetboots:jetboots_template_shapeless` });
-    event.remove({ id: `jetboots:jetboots_template_smithing` });
+    event.remove({ mod: `jetboots` });
 
     event.remove({ output: `botania:apothecary_default` });
     event.remove({ output: `botania:apothecary_forest` });

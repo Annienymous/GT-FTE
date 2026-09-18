@@ -12,11 +12,6 @@ GTCEuStartupEvents.registry(`gtceu:element`, event => {
         .protons(123)
         .neutrons(321)
         .symbol(`El`);
-//Nocturium  Line
-    event.create(`nocturium`)
-        .protons(157)
-        .neutrons(394)
-        .symbol(`Nc`);
 //Fission Line
     event.create(`celestite`)
         .protons(94)
